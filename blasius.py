@@ -78,4 +78,5 @@ p = np.poly1d(z) #p = ... + p[5]*eta^5+p[4]*eta^4+p[3]*eta^3+p[2]*eta^2+p[1]*eta
 plt.plot(eta,18*p(eta),'-.')
 plt.legend(['Blasius profile numerical result','Fitting curve'])
 
-    
+plt.show()
+#plt.savefig('books_read.eps')
