@@ -73,7 +73,7 @@ plt.ylabel('$u$')
 ##using polynomial to fit this curve
 z = np.polyfit(eta, f2, 6)
 print(z)
-p = np.poly1d(z) #p = ... + p[5]*eta+p[4]*eta+p[3]*eta+p[2]*eta+p[1]*eta+p[0]
+p = np.poly1d(z) #p = ... + p[5]*eta^5+p[4]*eta^4+p[3]*eta^3+p[2]*eta^2+p[1]*eta^1+p[0]
 
 plt.plot(eta,18*p(eta),'-.')
 plt.legend(['Blasius profile numerical result','Fitting curve'])
