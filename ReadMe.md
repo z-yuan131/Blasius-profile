@@ -1,5 +1,5 @@
 # Blasius-Profile
-Blasius equation: $f^{'''}+0.5ff^{''}$
+Blasius equation: $f^{'''}+0.5*f*f^{''}$   https://en.wikipedia.org/wiki/Blasius_boundary_layer
 
 with boundary condition: $f(0) = 0, f'(0) = 0, f'(infinty) = 1$
 
